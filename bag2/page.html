@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VKBags Online Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c29df56484.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <p>Vk</p>
+          <p style="font-size: 0.7em">Fashion</p>
+        </div>
+        <ul class="nav-links">
+          <div class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#course">Blog</a></li>
+            <li class="services">
+              <a href="#">Brands</a>
+              <ul class="dropdown">
+                <li><a href="#">Skybags</a></li>
+                <li><a href="#">F Gear</a></li>
+                <li><a href="#">Wildcraft</a></li>
+                <li><a href="#">Safari</a></li>
+              </ul>
+            </li>
+            <li><a href="#latest">latest</a></li>
+            <li><a href="#kids">Kids</a></li>
+            <li><a href="#womens">Womens</a></li>
+            <li><a href="#men">Mens</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+        <button class="but">Get Started</button>
+      </nav>
+    </header>
+    <main>
+      <div class="slideshow">
+        <img src="output (1).jpg" alt="Bag 1" />
+        <img src="output (5).jpg" alt="Bag 2" />
+        <img src="output (3).jpg" alt="Bag 3" />
+        <img src="output (4).jpg" alt="Bag 4" />
+      </div>
+      <br />
+      <div class="search">
+        <div class="center">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="what are you looking for?"
+          />
+          <button type="btn" class="btn">Search</button>
+        </div>
+      </div>
+      <div class="latest" id="latest">
+        <center><h2>Latest</h2></center>
+      </div>
+      <table style="width: 100%">
+        <tr>
+          <td>
+            <div class="manualSlides fade">
+              <img src="dell-bag1.jpg" />
+            </div>
+            <div class="manualSlides fade">
+              <img src="dell-bag2.jpg" />
+            </div>
+            <div class="manualSlides fade">
+              <img src="dell-bag3.jpg" />
+            </div>
+            <div class="manualSlides fade">
+              <img src="dell-bag4.jpg" />
+            </div>
+            <div class="manualSlides fade">
+              <img src="dell-bag5.jpg" />
+            </div>
+            <div class="manualSlides fade">
+              <img src="dell-bag6.jpg" />
+            </div>
+            <!-- Navigation dots -->
+            <div style="text-align: center; margin-top: 20px">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+          </td>
+          <td>
+            <div class="model">
+              <p>Dell Gaming Backpack 17</p>
+            </div>
+            <p><center>4.6 Rating</center></p>
+            <br />
+            <br />
+            <p
+              style="
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                  sans-serif;
+              "
+            >
+              Keep your gaming laptop safe while on the move with this Dell
+              Gaming Backpack.<br />
+            </p>
+            <p
+              style="
+                font-size: 2em;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                  sans-serif;
+              "
+            >
+              <i class="fa-solid fa-indian-rupee-sign"></i> 3,999.00<br />
+            </p>
+            <div class="uses">
+              <ol>
+                <li>Heavy-duty protection on the go</li>
+                <li>Deployable rain cover for easy protection</li>
+                <li>Plenty of storage for busy days</li>
+                <li>Easy to carry anywhere</li>
+                <li>Cooler comfort for hot days</li>
+                <li>Be seen to be safe</li>
+                <li>Compatibility</li>
+                <br />
+                <li style="font-size: 30px">Warranty</li>
+                <li>3-year limited warranty</li>
+              </ol>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <center>
+        <p style="font-size: 20px"><b>KIDS</b></p>
+      </center>
+      <table>
+        <tr>
+          <td>
+            <div class="kids" id="kids">
+              <img src="kids1.jpg" alt="kid" />
+              <br />
+              <div class="kid1">
+                PRINTED BLACK BATMAN BAG 006
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">499.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="kids" id="kids">
+              <img src="kid2 (1).jpg" alt="kid" />
+              <br />
+              <div class="kid2">
+                SHINCHAN NOHARA Backpack
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">560.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="kids" id="kids">
+              <img src="kids4.jpg" alt="kid" />
+              <br />
+              <div class="kid3">
+                Frozen School Bags
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">600.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <center>
+        <p style="font-size: 20px"><b>Womens</b></p>
+      </center>
+      <table>
+        <tr>
+          <td>
+            <div class="wom" id="womens">
+              <img src="wom1.jpg" alt="women" />
+              <br />
+              <div class="wom1">
+                Women Pink & Sandle Bag
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">899.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="wom" id="womens">
+              <img src="wom2.jpg" alt="women" />
+              <br />
+              <div class="wom2">
+                Polyurethane Embroidered Fargo Handbag
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">767.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="wom" id="womens">
+              <img src="wom3.jpg" alt="women" />
+              <br />
+              <div class="wom3">
+                SUPER COBO WITH BACKPACK Handbag
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">563.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <center>
+        <p style="font-size: 20px"><b>Mens</b></p>
+      </center>
+      <table>
+        <tr>
+          <td>
+            <div class="Men" id="men">
+              <img src="men1.jpg" />
+              <br />
+              <div class="men1">
+                Mens Sling Bag Small Size
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">531.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="Men" id="men">
+              <img src="men3 (1).jpg" />
+              <br />
+              <div class="men1">
+                Luxury Vegan Faux Leather Bags for Men
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">911.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="Men" id="men">
+              <img src="men2.jpg" />
+              <br />
+              <div class="men1">
+                Men Shoulder Bag - H&M
+                <br />
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p class="price">600.00</p>
+                <p style="color: lightslategray">Free delivery</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <center><h2>About Us</h2></center>
+      <table>
+        <tr>
+          <td>
+            <div class="about-us" id="about-us">
+              <img src="vk fashion1 (1).jpg" />
+              <td>
+                <p
+                  style="
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                  "
+                >
+                  At Vk Fashion, VK Fashions is more than just a place to shop;
+                  it's a community of fashion enthusiasts who share a passion
+                  for self-expression and empowerment through style. As a
+                  customer-centric brand, your satisfaction is our top priority
+                  our dedicated team is here to support you every step of the
+                  way. Join the VK Fashions family today and discover a world of
+                  endless style possibilities.
+                  <br />
+                  <br />
+                  <br />
+                </p>
+              </td>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <div class="thank">
+        <center>
+          <b>
+            Thanks for choosing VK Fashions. Let's elevate your wardrobe
+            together!
+          </b>
+        </center>
+      </div>
+      <br />
+    </main>
+    <footer>
+      <div class="refer" id="contact">
+        <table>
+          <tr>
+            <td><i class="fab fa-twitter"></i></td>
+            <td><i class="fab fa-facebook"></i></td>
+            <td><i class="fab fa-instagram"></i></td>
+            <td><i class="fab fa-telegram"></i></td>
+            <div id="con">
+              <td
+                style="
+                  font-family: Cambria, Cochin, Georgia, Times,
+                    'Times New Roman', serif;
+                "
+              >
+                Email: VKbags@gmail.com
+              </td>
+              <td>
+                whatsapp <i class="fa-brands fa-whatsapp"></i>: 9876234510
+              </td>
+            </div>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <p><b>&copy; 2024 VKBags Online Store. All rights reserved.</b></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
